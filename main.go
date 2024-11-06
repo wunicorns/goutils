@@ -3,7 +3,9 @@ package main
 import (
 	// "github.com/wunicorns/goutils/hash"
 	"fmt"
-	"github.com/wunicorns/goutils/timer"
+
+	"github.com/wunicorns/goutils/include"
+	_ "github.com/wunicorns/goutils/timer"
 )
 
 func main() {
@@ -14,8 +16,10 @@ func main() {
 	// map1["test1"] = "1234"
 	// log.Println(len(map1))
 
-	timer.Main()
+	// timer.Main()
 
 	fmt.Println("test123")
+
+	include.Run()
 
 }
